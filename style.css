@@ -1,0 +1,347 @@
+/* Navbar styling */
+.navbar {
+  position: fixed; /* Fixed position to keep it at the top */
+  width: 100%; /* Make it full width */
+  z-index: 1000; /* Set a high z-index to place it on top */
+  font-family: sans-serif;
+ /* background-color: antiquewhite; */
+}
+.navbar li{
+  padding: 10px;
+}
+
+/* nack text  */
+.nack{
+  color: white;
+  position: absolute;
+  right: 45%;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: 'Lexend', sans-serif;
+}
+.side-nav{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+/* about  text*/
+.about{
+  color: white;
+  
+}
+.about:hover{
+  text-decoration: underline;
+}
+
+/* Carousel styling */
+#carouselExampleIndicators {
+  margin-top: 0; /* Set top margin to 0 to move it to the top */
+  z-index: 1; /* Set a lower z-index */
+}
+
+.announcement-bar{
+  margin: 0;
+  padding: 10px 0;
+  font-size: 13px;
+  font-family: ApercuPro-Light,Source Sans Pro,Helvetica,sans-serif;
+  letter-spacing: 0;
+ background-color: #94A684;
+}
+.announcement-bar h6{
+  text-align: center;
+    color: #ffffff;
+}
+
+/* necl heading feature */
+#neck-heading{
+  text-align: center;
+  margin: 5px;
+  padding: 3px;
+}
+.pre-heading{
+  font-weight: bold;
+  color:black;
+}
+.section-title{
+  font-family: Montserrat;
+}
+
+
+
+.imagehandle{
+  padding-left: 12%;
+
+}
+
+.handlebox{
+  padding-top: 18%;
+}
+
+
+
+
+
+.handleButton{
+  background-color: #face93;
+  border: #face93;
+}
+
+.handleButton:hover{
+  background-color: black;
+  color: #face93;
+}
+
+.home-second-img{
+  max-height: 730px;
+}
+
+
+
+
+/* footer  */
+/* Navbar styling */
+.navbar {
+  position: fixed; /* Fixed position to keep it at the top */
+  width: 100%; /* Make it full width */
+  z-index: 1000; /* Set a high z-index to place it on top */
+  font-family: sans-serif;
+}
+.navbar li{
+  padding: 10px;
+}
+
+/* nack text  */
+.nack{
+  color: white;
+  position: absolute;
+  right: 45%;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: 'Lexend', sans-serif;
+}
+.side-nav{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+/* about  text*/
+.about{
+  color: white;
+  
+}
+.about:hover{
+  text-decoration: underline;
+}
+
+/* Carousel styling */
+#carouselExampleIndicators {
+  margin-top: 0; /* Set top margin to 0 to move it to the top */
+  z-index: 1; /* Set a lower z-index */
+}
+
+.announcement-bar{
+  margin: 0;
+  padding: 10px 0;
+  font-size: 13px;
+  font-family: ApercuPro-Light,Source Sans Pro,Helvetica,sans-serif;
+  letter-spacing: 0;
+ background-color: #94A684;
+}
+.announcement-bar h6{
+  text-align: center;
+    color: #ffffff;
+}
+
+/* necl heading feature */
+#neck-heading{
+  text-align: center;
+  margin: 5px;
+  padding: 3px;
+}
+.pre-heading{
+  font-weight: bold;
+  color:black;
+}
+.section-title{
+  font-family: Montserrat;
+}
+
+/* section Secound */
+#section-secound{
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+
+}
+.card-title h6{
+  font-family: Roboto Mono;
+  padding: 5px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 3px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 13px;
+}
+.card-title h2{
+  font-family: Montserrat;
+  color:darkslategray;
+}
+.card-text{
+  font-family: ApercuPro-Light,Source Sans Pro;
+  line-height: 26px;
+  font-weight: 100;
+  margin: 10px 0 19px;
+
+}
+#section-secound .btn{
+  width: 200px;
+  background: #face93;
+  padding: 15px 35px;
+  text-align: center;
+  margin: 30px auto 0;
+  color:#212529;
+  font-weight: 600;
+  line-height: 1rem;
+}
+
+.sec-img{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+
+
+/* footer */
+footer{
+  background-attachment: fixed;
+ background-color: black;
+}
+.footer-main{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.head{
+  margin-top:10vh;
+  margin-left:15px;
+  margin-right:50px ;
+}
+/* * Name and Social Icons*/ 
+
+.horizontal-list {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.horizontal-list li {
+  display: inline-block;
+  margin: 0px 8px 8px 0px;
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+
+.horizontal-list li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-menu li a {
+  transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+  color: lightgrey;
+  border-bottom: 1px solid black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#name-social-container {
+    margin-top: 10vh;
+    padding: 10px;
+}
+
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons li a i {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+/* name  */
+.name{
+  width:40vw;
+ 
+}
+.ul-list{
+  margin-top: 5vh;
+  list-style:none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+   text-decoration: underline;
+}
+.list{
+  padding:20px;
+  margin: 3px;
+ 
+}
+.list a{
+  font-family: "ApercuPro-Light" !important;
+    letter-spacing: 0;
+    font-weight: 100;
+    list-style: underline;
+}
+.foam{
+  text-align: right;
+  display: flex;
+  justify-content: end;
+}
+
+
+.footer-button{
+  width: 125%; height: 20%; border: none;  background-color: #face93; color: black; font-size: 1rem; font-weight: bold;
+}
+
+
+.footer-box{
+  width: 125%; height: 20%;
+  background-color: #000;
+  border-radius: 0;
+}
+
+.footer-par{
+  font-size: 1.5rem;
+  text-align: left;
+  font-family: 'GTSuperDisplay-Regular';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
